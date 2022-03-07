@@ -18,5 +18,5 @@ phases:
     commands:
       - echo "Updating lambda function......."
       - aws lambda update-function-code --funtion-name github-to-lambda-demo --zip-file fileb://deployment_package.zip
-      -echo "Done!!"
+      - echo "Done!!"
 
